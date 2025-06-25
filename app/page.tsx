@@ -1,9 +1,9 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { Button } from "../components/ui/button";
 
 export default function OnBoard() {
   const [step, setStep] = useState(0);
@@ -53,8 +53,10 @@ export default function OnBoard() {
 
         <div className="z-100 h-full flex justify-end flex-col">
           <div className="bg-blue-950 px-6 py-8 rounded-t-3xl flex flex-col h-fit">
-            <h2 className="text-xl font-semibold">{slides[step]?.title}</h2>
-            <p className="text-sm mt-2 mb-6">{slides[step]?.description}</p>
+            <h2 className="text-xl font-bold">{slides[step]?.title}</h2>
+            <p className="text-sm mt-2 mb-6 text-[#FFFFFFB2]">
+              {slides[step]?.description}
+            </p>
 
             <div className="flex gap-2 mb-4 justify-center">
               {slides.map((_, i) => (
