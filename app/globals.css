@@ -6,6 +6,18 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
+  --color-customblue-50: #eff9ff;
+  --color-customblue-100: #def3ff;
+  --color-customblue-200: #b6e8ff;
+  --color-customblue-300: #76d9ff;
+  --color-customblue-400: #2dc5ff;
+  --color-customblue-500: #02aff5;
+  --color-customblue-600: #008cd2;
+  --color-customblue-700: #006faa;
+  --color-customblue-800: #005e8c;
+  --color-customblue-900: #064d74;
+  --color-customblue-950: #032235;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-sora);

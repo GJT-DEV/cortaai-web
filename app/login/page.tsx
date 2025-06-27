@@ -25,7 +25,7 @@ export default function Login() {
   return (
     <div
       className="h-screen w-full flex flex-col items-center justify-center
-                    bg-[#032235] dark:bg-[#0a192f] 
+                    bg-customblue-950 dark:bg-[#0a192f] 
                     [background-image:linear-gradient(90deg,_rgba(255,255,255,0.02)_1px,_transparent_1px),linear-gradient(rgba(255,255,255,0.02)_1px,_transparent_1px)]
                     dark:[background-image:linear-gradient(90deg,_rgba(255,255,255,0.02)_1px,_transparent_1px),linear-gradient(rgba(255,255,255,0.02)_1px,_transparent_1px)]
                     [background-size:45px_45px]"
@@ -49,7 +49,7 @@ export default function Login() {
           <h2 className="text-3xl font-bold text-black dark:text-white">
             Bem-vindo 👋🏼
           </h2>
-          <span className="text-[#032235B2] dark:text-[#a0aec0] font-semibold">
+          <span className="text-customblue-950 dark:text-[#a0aec0] font-semibold">
             Por favor, insira suas informações de login abaixo para acessar sua
             conta.
           </span>
@@ -89,8 +89,8 @@ export default function Login() {
           </div>
 
           <Link
-            href={"forget-password"}
-            className="text-sm font-semibold text-[#032235] dark:text-[#a0aec0] flex justify-end"
+            href={"forgot-password"}
+            className="text-sm font-semibold text-customblue-900 dark:text-[#a0aec0] flex justify-end"
           >
             Esqueceu a senha?
           </Link>
@@ -105,7 +105,7 @@ export default function Login() {
           <div className="w-full flex flex-col gap-2 mt-4">
             <Link
               href={"forget-password"}
-              className="text-sm text-[#032235] dark:text-[#a0aec0] flex justify-center"
+              className="text-sm text-customblue-900 dark:text-[#a0aec0] flex justify-center"
             >
               <span>
                 Ainda não tem conta?{" "}
