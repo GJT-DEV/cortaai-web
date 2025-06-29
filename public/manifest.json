@@ -1,0 +1,21 @@
+{
+    "name": "Corta Aí",
+    "short_name": "Corta Aí",
+    "description": "Seu sistema de barbearia",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#032235",
+    "theme_color": "#032235",
+    "icons": [
+        {
+            "src": "/logo.svg",
+            "type": "image/svg",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/logo.svg",
+            "type": "image/svg",
+            "sizes": "512x512"
+        }
+    ]
+}

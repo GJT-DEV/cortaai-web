@@ -46,7 +46,7 @@ export default function Login() {
 
       <div className="rounded-t-3xl p-8 bg-white dark:bg-[#112240] pb-12 gap-2 flex flex-col">
         <div>
-          <h2 className="text-3xl font-bold text-black dark:text-white">
+          <h2 className="text-3xl font-bold customblue-950 dark:text-white">
             Bem-vindo 👋🏼
           </h2>
           <span className="text-customblue-950 dark:text-[#a0aec0] font-semibold">
@@ -59,7 +59,7 @@ export default function Login() {
         <FormProvider {...useFormMethods}>
           <div className="flex flex-col mt-8 gap-8">
             <div>
-              <Label className="font-semibold text-black dark:text-white">
+              <Label className="font-semibold customblue-950 dark:text-white">
                 Email
               </Label>
               <div className="relative w-full max-w-sm">
@@ -73,7 +73,7 @@ export default function Login() {
             </div>
 
             <div>
-              <Label className="font-semibold text-black dark:text-white">
+              <Label className="font-semibold customblue-950 dark:text-white">
                 Senha
               </Label>
               <div className="relative w-full max-w-sm">
